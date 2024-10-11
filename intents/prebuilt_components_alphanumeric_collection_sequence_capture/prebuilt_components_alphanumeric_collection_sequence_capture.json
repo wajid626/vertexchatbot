@@ -1,0 +1,10 @@
+{
+  "name": "2f723101-0be4-42ec-b07c-d5b22eca8503",
+  "displayName": "prebuilt_components_alphanumeric_collection_sequence_capture",
+  "parameters": [ {
+    "id": "new_seq",
+    "entityType": "@sys.any"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 99
+}

@@ -1,0 +1,13 @@
+{
+  "name": "4c210406-cdb4-4067-a1dd-35d5bf6259a8",
+  "displayName": "Offers and deals FAQ",
+  "modelParameter": {
+    "temperature": 0.5,
+    "maxDecodeSteps": 128,
+    "topP": 0.94999999,
+    "topK": 40
+  },
+  "llmModelSettings": {
+    "model": "text-bison"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "promptTexts": [ {
+    "text": "Your goal is to summarize a given conversation between a user and RetailBot excluding the sensitive information.\n\nKey considerations:\n- Should exclude any of the sensitive information user provided, such as Phone Numbers, emails and OTP(One Time Password) from the summary. \n- The summary should be concise, coherent, and provide a comprehensive overview of the interaction in sequence. \n- Users may inquire about any additional details, make sure to capture all those details in summary.\n- Do not assume, please always ensure to provide the summary based on the below given conversation. \n\nConversation:\n${conversation USER:\"user:\" AGENT:\"RetailBot:\"}user: $last-user-utterance\n\nA concise summary of the conversation(excluding sensitive information):",
+    "languageCode": "en"
+  } ]
+}

@@ -1,0 +1,26 @@
+{
+  "name": "2d193228-7474-4595-83c4-0d47f2b81895",
+  "displayName": "prebuilt_components_offers_and_deals:get_offers_details",
+  "genericWebService": {
+    "uri": "https://www.example.com",
+    "webhookType": "FLEXIBLE",
+    "httpMethod": "POST",
+    "requestBody": "{\n  \"phone_number\": \"$session.params.phone_number\",\n  \"fulfillmentInfo\": {\n    \"tag\": \"getOffers\"\n  }\n}",
+    "parameterMapping": [ {
+      "key": "$flow.active_category",
+      "value": "active_category"
+    }, {
+      "key": "$flow.all_offers",
+      "value": "all_offers"
+    }, {
+      "key": "$flow.user_email",
+      "value": "user_email"
+    }, {
+      "key": "$flow.user_offer",
+      "value": "user_offer"
+    } ]
+  },
+  "timeout": {
+    "seconds": 5
+  }
+}

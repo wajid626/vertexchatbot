@@ -1,0 +1,13 @@
+{
+  "name": "28432d90-59aa-47b1-a4e4-0e7150d16696",
+  "displayName": "GenAIModel",
+  "modelParameter": {
+    "temperature": 0.5,
+    "maxDecodeSteps": 128,
+    "topP": 0.94999999,
+    "topK": 40
+  },
+  "llmModelSettings": {
+    "model": "gemini-1.5-flash"
+  }
+}

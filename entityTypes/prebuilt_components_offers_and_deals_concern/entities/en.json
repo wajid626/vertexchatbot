@@ -1,0 +1,11 @@
+{
+  "entities": [ {
+    "value": "offers",
+    "synonyms": [ "discount offers", "discounts", "latest offers", "new offers", "new sale", "offer", "offers", "sale", "sale offers", "top offers" ],
+    "languageCode": "en"
+  }, {
+    "value": "coupon codes",
+    "synonyms": [ "code ", "coupon", "coupon code", "coupon codes", "promo code", "promotion code" ],
+    "languageCode": "en"
+  } ]
+}

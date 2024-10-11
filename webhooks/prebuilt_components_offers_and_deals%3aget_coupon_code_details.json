@@ -1,0 +1,29 @@
+{
+  "name": "d87c6308-dcee-40dc-8e2f-e93afad66e9a",
+  "displayName": "prebuilt_components_offers_and_deals:get_coupon_code_details",
+  "genericWebService": {
+    "uri": "https://www.example.com",
+    "webhookType": "FLEXIBLE",
+    "httpMethod": "POST",
+    "requestBody": "{\n  \"coupon_code\": \"$flow.coupon_code\",\n  \"phone_number\": \"$session.params.phone_number\",\n  \"fulfillmentInfo\": {\n    \"tag\": \"getCouponDetails\"\n  }\n}",
+    "parameterMapping": [ {
+      "key": "$flow.coupon_code_status",
+      "value": "coupon_code_status"
+    }, {
+      "key": "$flow.minimum_order_value",
+      "value": "minimum_order_value"
+    }, {
+      "key": "$flow.offer_category_name",
+      "value": "offer_category_name"
+    }, {
+      "key": "$flow.offer_id",
+      "value": "offer_id"
+    }, {
+      "key": "$flow.valid_until",
+      "value": "valid_until"
+    } ]
+  },
+  "timeout": {
+    "seconds": 5
+  }
+}

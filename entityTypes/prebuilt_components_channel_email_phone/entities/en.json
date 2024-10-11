@@ -1,0 +1,11 @@
+{
+  "entities": [ {
+    "value": "phone",
+    "synonyms": [ "message", "mobile", "phone", "sms", "text" ],
+    "languageCode": "en"
+  }, {
+    "value": "email",
+    "synonyms": [ "email", "email-id", "mail", "online", "web" ],
+    "languageCode": "en"
+  } ]
+}

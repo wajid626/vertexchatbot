@@ -1,0 +1,6 @@
+{
+  "promptTexts": [ {
+    "text": "You are provided with the below input:\nOffers and Deals data in JSON format\n\nYour task is to craft a response enticing the offers found in the JSON data. Strictly avoid any symbols, asterisks and emoticons in the response.  \nNote: There could be more than one offer, ensure to respond with all the offers found in JSON data.\n\nDO NOT ask any follow-up questions.\n\nJSON data:\n$offers_database\n\nExample 1:\nWe found the following offer for you, here are the details:\nBlack Friday deals, Get up to X% Off on sub categories.\n\nExample 2:\nWe found the following offers for you, here are the details:\nOffer 1: Black Friday deals, Get up to X% Off on sub categories.\nOffer 2: Save big on electronics, with discounts up to X%.\n\nExample 3:\nWe found the following offers for you, here are the details:\nOffer 1: Enjoy up to X% off on luxurious cosmetics. \nOffer 2: Spruce up your space with up to X% on home decor.\nOffer 3: Gear up to X% off on sports and outdoor equipment. \nOffer X: Books Sale, get up to X% off.\n\nYour response: [strictly follow the examples pattern to craft the responses; formulate the response with only discount_value, coupon_code and valid_until information]",
+    "languageCode": "en"
+  } ]
+}

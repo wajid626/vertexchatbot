@@ -1,0 +1,14 @@
+{
+  "name": "524296c3-967b-4696-9d10-7df55f47495d",
+  "displayName": "prebuilt_components_telephone_number_collection_country_code_and_telephone_number",
+  "parameters": [ {
+    "id": "country_code",
+    "entityType": "@prebuilt_components_telephone_no_country_code"
+  }, {
+    "id": "telephone_number",
+    "entityType": "@sys.phone-number"
+  } ],
+  "priority": 500000,
+  "description": "User provides either only country_code or both country_code and phone_number in the same response.",
+  "numTrainingPhrases": 27
+}

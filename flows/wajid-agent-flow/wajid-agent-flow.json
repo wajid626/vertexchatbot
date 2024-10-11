@@ -1,0 +1,104 @@
+{
+  "name": "00000000-0000-0000-0000-000000000000",
+  "displayName": "wajid-agent-flow",
+  "description": "A start flow created along with the agent",
+  "transitionRoutes": [ {
+    "intent": "Default Welcome Intent",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Hi! How are you doing?", "Hello! How can I help you?", "Good day! What can I do for you today?", "Greetings! How can I assi" ]
+        },
+        "languageCode": "en"
+      } ],
+      "generators": [ {
+        "generator": "projects/wajid-123/locations/global/agents/21d37e78-5023-47db-8f77-8fa3948ba08a/generators/28432d90-59aa-47b1-a4e4-0e7150d16696",
+        "outputParameter": "$request.generative."
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "name": "794f87a0-c049-4362-afec-404ed20f6623"
+  } ],
+  "eventHandlers": [ {
+    "event": "sys.no-match-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I didn't get that. Can you say it again?", "I missed what you said. What was that?", "Sorry, could you say that again?", "Sorry, can you say that again?", "Can you say that again?", "Sorry, I didn't get that. Can you rephrase?", "Sorry, what was that?", "One more time?", "What was that?", "Say that one more time?", "I didn't get that. Can you repeat?", "I missed that, say that again?" ]
+        },
+        "languageCode": "en"
+      } ],
+      "enableGenerativeFallback": true
+    },
+    "name": "07f1895b-40a0-4384-851b-d7ebfca06f75"
+  }, {
+    "event": "sys.no-input-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I didn't get that. Can you say it again?", "I missed what you said. What was that?", "Sorry, could you say that again?", "Sorry, can you say that again?", "Can you say that again?", "Sorry, I didn't get that. Can you rephrase?", "Sorry, what was that?", "One more time?", "What was that?", "Say that one more time?", "I didn't get that. Can you repeat?", "I missed that, say that again?" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "819f6ad2-1fe7-4901-a264-f49ef5e59c18"
+  } ],
+  "nluSettings": {
+    "modelType": "MODEL_TYPE_STANDARD",
+    "classificationThreshold": 0.30000001,
+    "modelTrainingMode": "MODEL_TRAINING_MODE_AUTOMATIC",
+    "multiIntentSettings": {
+    
+    }
+  },
+  "advancedSettings": {
+    "enabled": true
+  },
+  "knowledgeConnectorSettings": {
+    "enabled": true,
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "$request.knowledge.answers[0]" ]
+        },
+        "languageCode": "en"
+      }, {
+        "languageCode": "en",
+        "knowledgeInfoCard": {
+          "maximumSnippets": 1
+        }
+      } ],
+      "generators": [ {
+        "generator": "projects/wajid-123/locations/global/agents/21d37e78-5023-47db-8f77-8fa3948ba08a/generators/28432d90-59aa-47b1-a4e4-0e7150d16696",
+        "outputParameter": "$request.generative."
+      }, {
+        "generator": "projects/wajid-123/locations/global/agents/21d37e78-5023-47db-8f77-8fa3948ba08a/generators/2e3832bd-1943-4f88-98a9-c0aa51236b4d",
+        "outputParameter": "$request.generative."
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "dataStoreConnections": [ {
+      "dataStoreType": "UNSTRUCTURED",
+      "dataStore": "projects/891473613188/locations/global/collections/default_collection/dataStores/wajid-umich-cis549-data-store_1727929674857",
+      "languageCode": "en",
+      "documentProcessingMode": "DOCUMENTS",
+      "aclConfig": {
+      
+      }
+    } ]
+  },
+  "nluSettingsList": [ {
+    "modelType": "MODEL_TYPE_STANDARD",
+    "classificationThreshold": 0.69999999,
+    "modelTrainingMode": "MODEL_TRAINING_MODE_AUTOMATIC",
+    "customConfigKey": "edfbd7af-ebf0-42aa-aad2-4749b4e9e53f",
+    "multiIntentSettings": {
+    
+    },
+    "languageCode": "en"
+  } ]
+}

@@ -1,0 +1,64 @@
+{
+  "name": "ec3bd0f1-841f-4e6b-b8a8-2be17897817b",
+  "displayName": "eiffel test case",
+  "testCaseConversationTurns": [ {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "who built eiffel tower"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "wajid-agent-flow"
+      },
+      "textResponses": [ {
+        "text": [ "The Eiffel Tower was designed by Gustave Eiffel and his team of engineers." ],
+        "containAiGeneratedContent": true,
+        "containGenerativeFallback": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "wajid-agent-flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "input": {
+        "text": {
+          "text": "who is gustave eiffel"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "wajid-agent-flow"
+      },
+      "textResponses": [ {
+        "text": [ "This link can be helpful" ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true,
+        "containGroundingFailures": true
+      } ],
+      "currentFlow": {
+        "name": "wajid-agent-flow"
+      }
+    }
+  } ],
+  "creationTime": {
+    "seconds": 1728684834,
+    "nanos": 227529000
+  },
+  "testConfig": {
+    "flow": "wajid-agent-flow",
+    "page": "Start Page"
+  },
+  "languageCode": "en"
+}

@@ -1,2 +1,0 @@
-# vertexchatbot
-vertexchatbot

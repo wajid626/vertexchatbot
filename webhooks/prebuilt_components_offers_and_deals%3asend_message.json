@@ -1,0 +1,13 @@
+{
+  "name": "3d4f2b6b-7673-454c-9760-97d73c233106",
+  "displayName": "prebuilt_components_offers_and_deals:send_message",
+  "genericWebService": {
+    "uri": "https://www.example.com",
+    "webhookType": "FLEXIBLE",
+    "httpMethod": "POST",
+    "requestBody": "{\n  \"phone_number\": \"$session.params.phone_number\",\n  \"channel\": \"$flow.confirmation_channel\",\n  \"fulfillmentInfo\": {\n    \"tag\": \"sendMessage\"\n  }\n}"
+  },
+  "timeout": {
+    "seconds": 5
+  }
+}

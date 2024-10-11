@@ -1,0 +1,13 @@
+{
+  "name": "bd41222b-fd72-4314-a441-c06afb6b20f5",
+  "displayName": "prebuilt_components_offers_and_deals:raise_ticket",
+  "genericWebService": {
+    "uri": "https://www.example.com",
+    "webhookType": "FLEXIBLE",
+    "httpMethod": "POST",
+    "requestBody": "{\n  \"coupon_code\": \"$flow.coupon_code\",\n  \"offer_id\": \"$flow.offer_id\",\n  \"coupon_code_issue\": \"$flow.coupon_code_issue\",\n  \"phone_number\": \"$session.params.phone_number\",\n  \"fulfillmentInfo\": {\n    \"tag\": \"raiseTicket\"\n  }\n}"
+  },
+  "timeout": {
+    "seconds": 5
+  }
+}

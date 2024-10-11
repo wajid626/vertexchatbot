@@ -1,0 +1,43 @@
+{
+  "entities": [ {
+    "value": "apparels",
+    "synonyms": [ "apparels", "clothes", "clothing", "dress", "fashion", "pant", "shirt", "shoes", "t-shirt" ],
+    "languageCode": "en"
+  }, {
+    "value": "home",
+    "synonyms": [ "decorators", "home", "kitchen" ],
+    "languageCode": "en"
+  }, {
+    "value": "electronics",
+    "synonyms": [ "ac", "electronics", "mobiles", "washing machine" ],
+    "languageCode": "en"
+  }, {
+    "value": "fitness",
+    "synonyms": [ "fitness", "games", "sports" ],
+    "languageCode": "en"
+  }, {
+    "value": "books",
+    "synonyms": [ "books", "education" ],
+    "languageCode": "en"
+  }, {
+    "value": "giftcards",
+    "synonyms": [ "cards", "giftcards" ],
+    "languageCode": "en"
+  }, {
+    "value": "grocery",
+    "synonyms": [ "fruits", "groceries", "grocery" ],
+    "languageCode": "en"
+  }, {
+    "value": "pharmacy",
+    "synonyms": [ "medicines ", "pharmacy" ],
+    "languageCode": "en"
+  }, {
+    "value": "cosmetics",
+    "synonyms": [ "beauty", "cosmetics", "makeup" ],
+    "languageCode": "en"
+  }, {
+    "value": "furniture",
+    "synonyms": [ "furniture", "table" ],
+    "languageCode": "en"
+  } ]
+}

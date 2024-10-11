@@ -1,0 +1,13 @@
+{
+  "name": "abf223e5-0c01-4852-a95a-29fc258edf4e",
+  "displayName": "Discount and promo code FAQ",
+  "modelParameter": {
+    "temperature": 0.5,
+    "maxDecodeSteps": 128,
+    "topP": 0.94999999,
+    "topK": 40
+  },
+  "llmModelSettings": {
+    "model": "text-bison"
+  }
+}
